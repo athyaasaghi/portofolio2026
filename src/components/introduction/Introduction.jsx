@@ -1,25 +1,6 @@
 import person from "../../assets/images/person.png";
 import "./introduction.css";
-import InformationSummary from "./InformationSummary";
 
-// Information summary data
-const informationSummaryData = [
-  {
-    id: 1,
-    title: "Experience",
-    description: "15 Y.",
-  },
-  {
-    id: 2,
-    title: "Projects Completed",
-    description: "250+",
-  },
-  {
-    id: 3,
-    title: "Happy Clients",
-    description: "58",
-  },
-];
 
 const Introduction = () => {
   return (
@@ -36,26 +17,16 @@ const Introduction = () => {
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            I'm a Freelance <span className="bg-highlight">UI/UX Designer</span>{" "}
-            and <span className="bg-highlight"> Developer</span> based in
-            London, England. I strives to build immersive and beautiful web
-            applications through carefully crafted code and user-centric design.
+            Graduated in 2022 from Stmik Pasim Sukabumi in Informatics Engineering on time. Possesses skills in Application Design. Actively engaged in IT studies, particularly in design, throughout college. Completed an internship at Eduwork, learning Design Thinking, research, empathy, brainstorming, and prototyping. Also, completed several short courses to enhance my UI/UX Designer skills. Eager to work and dedicate myself as a UI/UX Designer.
           </p>
           <p className="text-center lg:text-start">
             <a
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
               href="mailto:example@gmail.com"
             >
-              Say Hello!
+              Hubungi Saya
             </a>
           </p>
-        </div>
-        <div className="mx-auto lg:mx-0 relative">
-          <div className="grid max-xxs:grid-flow-col grid-cols-3 w-fit mt-10 gap-1">
-            {informationSummaryData.map((item) => (
-              <InformationSummary key={item.id} item={item} />
-            ))}
-          </div>
         </div>
       </div>
       <div

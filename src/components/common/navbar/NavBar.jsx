@@ -4,11 +4,9 @@ import { Link } from "react-scroll";
 
 const navItems = [
   { id: 1, name: "Home", url: "introduction" },
-  { id: 2, name: "About", url: "profile" },
   { id: 3, name: "Process", url: "work-process" },
   { id: 4, name: "Portfolio", url: "portfolio" },
-  { id: 5, name: "Blog", url: "blog" },
-  { id: 6, name: "Services", url: "services" },
+  { id: 5, name: "Experiences", url: "experiences" },
 ];
 
 const handleMenuClick = () => {
@@ -92,9 +90,8 @@ const NavBar = () => {
             duration={900}
             className="flex items-center border-0 lg:max-xxl:ps-5"
           >
-            <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
-            <p className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold">
-              Brooklyn
+            <p className="text-2xl sm:text-[25px] my-auto ms-[12px]">
+              Athya Asaghi
             </p>
           </Link>
         </div>

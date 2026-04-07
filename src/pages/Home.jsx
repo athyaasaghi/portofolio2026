@@ -17,7 +17,7 @@ const Home = () => {
         <WorkProcess />
       </div>
       <Portfolio />
-      <div className="bg-soft-white py-20">
+      <div className="bg-soft-white py-20 px-2">
         <WorkingExperience/>
       </div>
     </div>

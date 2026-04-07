@@ -84,14 +84,6 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-      <div className="text-center">
-        <a
-          href="#!"
-          className="btn btn-primary py-3 px-6 mt-12.5 text-center text-[16px] font-semibold"
-        >
-          More Project
-        </a>
-      </div>
     </div>
   );
 };

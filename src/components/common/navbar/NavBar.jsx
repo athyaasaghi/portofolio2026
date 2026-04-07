@@ -103,17 +103,6 @@ const NavBar = () => {
           <ul className="hidden lg:flex menu menu-horizontal text-[16px] font-medium md:shrink-0">
             {menu}
           </ul>
-          <p className="">
-            <Link
-              className="btn btn-sm xs:btn-md sm:btn-lg btn-primary"
-              href="#contact"
-              to={`contact`}
-              smooth={true}
-              duration={900}
-            >
-              Contact
-            </Link>
-          </p>
         </div>
       </div>
     </div>

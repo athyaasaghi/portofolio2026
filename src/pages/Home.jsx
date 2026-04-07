@@ -1,7 +1,9 @@
 import Introduction from "../components/introduction/Introduction";
 import WorkProcess from "../components/workProcess/WorkProcess";
 import Portfolio from "../components/portfolio/Portfolio";
+import Blog from "../components/blog/Blog"
 import "../../index.css";
+import WorkingExperience from "../components/workingExperiences/WorkingExperiences";
 
 const Home = () => {
   return (
@@ -15,6 +17,9 @@ const Home = () => {
         <WorkProcess />
       </div>
       <Portfolio />
+      <div className="bg-soft-white py-20">
+        <WorkingExperience/>
+      </div>
     </div>
   );
 };
